@@ -13,3 +13,5 @@ O código denominado SOLAR funciona da seguinte forma:
   Potência do Painel: Potência do painel que foi escolhido para o projeto, o valor é dado em Watts
 
   Rendimento do sistema: Este rendimento é dado referente as perdas do sistema, o valor é admensional sendo no intervalo de 0.0 a 1.0, este valor é obtido a partir da seguinte formula (1-perdas)
+  
+  
