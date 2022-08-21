@@ -27,12 +27,8 @@ Painel=float(input("Potência do Painel: \n"))
 rend = float(input("Rendimento do sistema: \n"))
 
 # 3. PLANILHAS USADAS COMO BANCO DE DADOS
-coordenadas_df= pd.read_excel("D:/Iniciação cientifica - Programa/Projeto/Solar/Coordenadas.xlsx")
-irradiação_global_horizontal = pd.read_csv("D:/Iniciação cientifica - Programa/Projeto/Solar/Irradiação Global Horizontal.csv", sep= ";")
-#irradiação_direta_normal = pd.read_csv("Projeto/Solar/Irradiação Direta Normal.csv", sep= ";")
-#irradiação_plano_inclinado = pd.read_csv("Projeto/Solar/Irradiação no Plano Inclinado.csv", sep= ";")
-#irradiação_difusa = pd.read_csv("Projeto/Solar/Irradiação Difusa.csv", sep= ";")
-#irradiação_fotossinteticamente_ativa = pd.read_csv("Projeto/Solar/Irradiação Fotossinteticamente Ativa.csv", sep= ";")
+coordenadas_df= pd.read_excel("Endereço dos dados")
+irradiação_global_horizontal = pd.read_csv("Endereço dos dados", sep= ";")
 
 x = math.sqrt(math.pow(LAT_in,2)) #3.3 Modulo do valor da latitude 
 y = math.sqrt(math.pow(LON_in,2)) #3.4 Modulo do valor da longitude
